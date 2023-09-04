@@ -1,0 +1,49 @@
+body {
+  background-image: url("background.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: BlinkMacSystemFont, Ubuntu, -apple-system,  'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+}
+
+#increment-btn {
+  background: blue;
+}
+
+#save-btn {
+  background: red;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 25px;
+  
+}
